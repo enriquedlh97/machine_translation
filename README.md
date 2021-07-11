@@ -1,5 +1,5 @@
-# stanford_algos
-Solutions and tests for challenges from the Stanford algorithms specialization
+# machine_translation
+Seq2Seq, Attention and Transformer implementations.
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ To get a working environment there are two possible options.
 
 ```
 python 3.8.5
-pytest 6.2.4
+pytest
 ```
 
 ### Installation
@@ -26,7 +26,7 @@ $ conda env create -f environment.yml
 
 Make sure you activate the environment. 
 ```bash
-$ conda activate ucsd_algos
+$ conda activate translation
 ```
 
 And verify that it was properly installed.
@@ -43,7 +43,7 @@ There are two environment files available, the first one is for creating an envi
 
 First make sure the environment is active by running 
 ```bash
-$ conda activate stanford_algos
+$ conda activate translation
 ```
 
 Then after you have updated the environment with some packages, save the new updated environment and override the previous .yml file. To do this, run the following.
@@ -55,12 +55,12 @@ $ conda env export > environment.yml
 
 First make sure the environment is active by running 
 ```bash
-$ conda activate stanford_algos
+$ conda activate translation
 ```
 
 Then after you have updated the environment with some packages, save the new updated environment and override the previous .yml file. To do this, run the following.
 ```bash
-$ conda env export -n ucsd_algos -f environment_no_builds.yml --no-builds
+$ conda env export -n translation -f environment_no_builds.yml --no-builds
 ```
 
 ### Setting up the PYTHONPATH
