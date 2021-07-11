@@ -104,3 +104,7 @@ For omitting a particular test, go to the file containing the test and add the f
 
 The ``` .gitignore ``` file was generated with [gitignore.io](https://www.toptal.com/developers/gitignore) adding the tags for ```python```, ```jupyternotebooks``` and ```pycharm```.
 
+## Acknowledgments
+
+Special thanks to Aladding Persson [aladdinpersson](https://github.com/aladdinpersson) for his great [tutorials](https://www.youtube.com/watch?v=EoGUlvhRYpk&list=PLhhyoLH6Ijfyl_VMCsi54UqGQafGkNOQH)
+
