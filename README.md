@@ -13,7 +13,11 @@ To get a working environment there are two possible options.
 
 ```
 python 3.8.5
-pytest
+pytorch 1.7.0
+torchtext 0.8.0
+numpy 1.19.2
+spacy 3.1.0
+pytest 6.1.1
 ```
 
 ### Installation
