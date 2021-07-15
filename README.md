@@ -18,6 +18,7 @@ torchtext 0.8.0
 numpy 1.19.2
 spacy 3.1.0
 pytest 6.1.1
+bayesian-optimization 1.1.0
 ```
 
 ### Installation
