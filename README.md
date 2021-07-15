@@ -77,11 +77,10 @@ First, check how the PYTHONPATH is empty by running the following:
 $ echo $PYTHONPATH
 ```
 
-To set the PYTHONPATH temporarily for the current terminal session, navigate to the directory containing the repository in your local computer. Specifically, get to the /Meta-Learning-Research folder. Once you are in the /Meta-Learning-Research folder run the following. 
+To set the PYTHONPATH temporarily for the current terminal session, navigate to the directory containing the repository in your local computer. Once you are in the folder run the following. 
 ```bash
 $ export PYTHONPATH="$PWD"
-```
-Note: In my case, I have the repository in a folder called /VRP, not /Meta-Learning-Research. For this reason I should go to the /VRP folder and run the previous.  
+``` 
 
 You can check how the PYTHONPATH was set correctly by running this command. Note that it should not be empty anymore. 
 ```bash
