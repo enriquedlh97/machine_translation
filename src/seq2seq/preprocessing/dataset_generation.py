@@ -4,6 +4,8 @@ Created: July 15, 2021
 Updated: July 15, 2021
 
 Description:
+    Contains the functions and methods used for generating the dataset and preprocessing it to be used by the seq2seq
+    model.
 """
 from torchtext.datasets import Multi30k
 from torchtext.data import Field, BucketIterator
