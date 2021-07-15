@@ -7,7 +7,8 @@ Description:
     Implements the seq2seq model
 """
 import torch.nn as nn
+from seq
 
 
 class Seq2Seq(nn.Module):
-    pass
+    def __init__(self):

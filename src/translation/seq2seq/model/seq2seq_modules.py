@@ -87,5 +87,3 @@ class Decoder(nn.Module):
         predictions = predictions.squeeze(0)
 
         return predictions, hidden, cell
-
-
